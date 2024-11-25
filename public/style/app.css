@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-style: none;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #482828;
+}
+
+.bmi {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.high {
+    margin-bottom: 10px;
+}
+
+.high input {
+    height: 1.5rem;
+}
+
+.width {
+    margin-bottom: 10px;
+}
+
+.width input {
+    height: 1.5rem;
+}
+
+#bmi-result {
+    text-align: left;
+}
