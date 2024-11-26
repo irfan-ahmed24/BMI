@@ -14,12 +14,33 @@
 }
 
 .bmi {
-    background-color: #ffffff;
+    background-color: aqua;
     padding: 20px;
-    border-radius: 5px;
     width: 300px;
     text-align: center;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bmi h2,
+h3 {
+    margin-bottom: 1rem;
+    color: #0e188b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.btn {
+    margin: 5px;
+    padding: 3px 5px;
+    border: none;
+    outline-style: none;
+    cursor: pointer;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.btn2 {
+    display: none;
 }
 
 .high {
@@ -40,4 +61,11 @@
 
 #bmi-result {
     text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .bmi {
+        height: 100vh;
+        width: 100%;
+    }
 }
